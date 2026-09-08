@@ -1,4 +1,4 @@
-def moveZeroes(nums):
+def moveZeroes(self, nums):
         nums2 = []
         counter = 0
         for i in nums:
@@ -8,6 +8,8 @@ def moveZeroes(nums):
                 counter += 1
         for i in range(counter):
             nums2.append(0)
-        return nums2
+        nums[:] = nums2
+        return nums
+        
 
 print(moveZeroes([0,1,0,3,12]))
