@@ -4,3 +4,4 @@ def majorityElement(nums):
             return i
 
 print(majorityElement([3,2,3]))
+
