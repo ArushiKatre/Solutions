@@ -1,4 +1,4 @@
-def thirdMax(self, nums):
+def thirdMax(nums):
         list = sorted(set(nums))
         if len(list) >= 3:
             return list[-3] 
